@@ -1,7 +1,6 @@
 package Bronze4.Day7;
 
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Scanner;
 
@@ -24,6 +23,4 @@ public class BOJ2752 {
         Arrays.sort(arr, Collections.reverseOrder()); //내림차순
         System.out.println(arr[0]+" "+arr[1]+" "+arr[2]);
     }
-
-
 }
